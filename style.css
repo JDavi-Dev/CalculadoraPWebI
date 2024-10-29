@@ -1,0 +1,40 @@
+/* Centralizar o formulário vertical e horizontalmente */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Ajustar o formulário */
+form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizar os parágrafos com bordas arredondadas */
+p {
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    width: auto;
+    text-align: center;
+}
+
+/* Centralizar os campos de entrada */
+input {
+    width: 100%;
+}
+
+/* Ajustar botão */
+button {
+    width: 100%;
+    margin-top: 10px;
+}
